@@ -1,24 +1,20 @@
-# README
+### Agile Web Development with Rails 5
+##### by Sam Ruby, Dave Thomas, David Heinemeier Hansson
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The code from the "Agile Web Development with Rails 5" book, published by The Pragmatic Bookshelf.  
+Copyrights apply to this code. It may not be used to create training material, courses, books, articles, and the like. Contact the publisher if you are in doubt.  
+Visit http://www.pragmaticprogrammer.com/titles/rails5 for more book information.
 
-Things you may want to cover:
+* Versions used:
+  * Ruby: 2.3.0
+  * Rails: 5.0.1
+  * Database: SQLite 3.8.2
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* To populate database with test data:
+```
+bin/rails db:seed
+```
+* To run the test suite:
+```
+bin/rails test
+```
