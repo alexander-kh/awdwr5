@@ -8,13 +8,19 @@ Visit http://www.pragmaticprogrammer.com/titles/rails5 for more book information
 * Versions used:
   * Ruby: 2.3.0
   * Rails: 5.0.1
-  * Database: SQLite 3.8.2
 
-* To populate database with test data:
-```
-bin/rails db:seed
-```
+* Database setup:
+  * Run migrations:
+      ```
+      bin/rails db:migrate
+      ```
+
+  * Add initial data:
+      ```
+      bin/rails db:seed
+      ```
+
 * To run the test suite:
-```
-bin/rails test
-```
+   ```
+   bin/rails test
+   ```
